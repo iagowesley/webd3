@@ -7,7 +7,7 @@
 
 header {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
+  background-color: #fff;
   margin: 0 auto;
   width: 100%;
 }
@@ -110,20 +110,26 @@ span {
     max-width: 80%;
     margin: 0 auto;
     width: 100%;
-    height: 700px;
+    height: 450px;
   }
 
-
+  .section4 {
+    max-width: 80%;
+    
+    margin: 0 auto;
+    width: 100%;
+    height: 600px;
+  }
 
   .contato-btn:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     color: #fff;
   }
 
-  .row-services {
+ .row-services {
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
   }
  
   .col-4 {
@@ -135,11 +141,12 @@ span {
   #card {
     height: 300px;
     border-radius: 20px;
-    padding: 20px;
+    padding: 40px;
     width: 380px;
     transition: background-color 0.5s ease;
     background-color: #8A05BE;
     color: #fff;
+    transition:0.2s ease-in-out;
   }
   
   #card img {
@@ -151,10 +158,9 @@ span {
   #card:hover {
     background-color: #8A05BE;
     opacity: 0.5;
-
+    transition: 0.3s ease-in-out;
     cursor: pointer;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Valores ajustáveis */
-
   }
 
   #card h3 {
@@ -175,6 +181,21 @@ span {
     margin-bottom: 50px;
   }
 
+  .card1 {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .card2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card3 {
+    display: flex;
+    justify-content: flex-end;
+  }
+
   .background {
     height: 100%;
     background-image: url(icons/pattern.svg);
@@ -189,10 +210,42 @@ span {
     padding-top: 70px;
   }
 
+  .titulo-time {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 35px;
+    padding-top: 70px;
+  }
+
   .sub-titulo {
     color: #fff;
   }
+  .sub-titulo-contato {
+    color: #fff;
+    font-size: 25px;
+  }
+
+  .background1 {
+    height: 100%;
+  }
+
+  .background-quemsomos {
+    height: 100%;
+    background-image: url(icons/bg-quemsomos.png);
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    background-position: center; /* Define a posição central da imagem */
+    background-size: cover; /* Redimensiona a imagem para cobrir todo o elemento */
+  }
   
+
+  .nubank-address-card {
+    background-color: #8A05BE;
+    color: #FFFFFF;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    padding: 35px;
+  }
 
 
   
