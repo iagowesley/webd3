@@ -6,6 +6,61 @@
     .img img {
         margin-top: 40px;
     }
+    .background-section4 {
+        height: 100%;
+        margin-top: 300px;
+    }
+
+    .section4 {
+        height: 900px;
+    }
+    form {
+        margin-top: 40px;
+    }
+
+    .section-footer {
+    
+        height: 700px;
+      }
+
+      .section-direitos {
+        margin-top: 40px;
+      }
+
+      .text-direito {
+        font-size: 14px;
+      }
+
+      .servicos, .links, .contatos {
+        margin-top: 30px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: start;
+      }
+
+
+
+}
+
+@media (max-width: 1208px) {
+  
+    .servicos, .links, .contatos {
+        margin-top: 30px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: start;
+      }
+   
+
+      .section-direitos {
+        margin-top: 220px;
+      }
+
+      .section2 {
+        height: 1000px;
+    }
 
 }
 
@@ -33,5 +88,17 @@
         background-color: #8A05BE;
         color: #fff;
       }
+}
+
+@media (max-width: 398px) {
+    .card-text {
+        font-size: 12px;
+    }
+    .section-direitos {
+        margin-top: 120px;
+      }
+    .card-title {
+        font-size: 17px;
+    }
 }
 

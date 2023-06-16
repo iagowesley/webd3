@@ -121,6 +121,20 @@ span {
     height: 600px;
   }
 
+  .section-footer {
+    padding-top: 70px;
+    max-width: 80%;
+    margin: 0 auto;
+    width: 100%;
+    height: 300px;
+  }
+
+  .section-direitos {
+    max-width: 80%;
+    margin: 0 auto;
+    width: 100%;
+  }
+
   .contato-btn:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     color: #fff;
@@ -147,6 +161,7 @@ span {
     background-color: #8A05BE;
     color: #fff;
     transition:0.2s ease-in-out;
+
   }
   
   #card img {
@@ -204,6 +219,14 @@ span {
     background-size: cover; /* Redimensiona a imagem para cobrir todo o elemento */
   }
 
+  .background-section4 {
+    height: 100%;
+    background-image: url(icons/pattern.svg);
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    background-position: center; /* Define a posição central da imagem */
+    background-size: cover; /* Redimensiona a imagem para cobrir todo o elemento */
+  }
+
 
   .titulo {
     color: #fff;
@@ -223,6 +246,7 @@ span {
   .sub-titulo-contato {
     color: #fff;
     font-size: 25px;
+    font-weight: 700;
   }
 
   .background1 {
@@ -239,10 +263,13 @@ span {
   
 
   .nubank-address-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #8A05BE;
     color: #FFFFFF;
     width: 100%;
-    height: 308px;
+    height: 295px;
     border-radius: 10px;
     padding: 35px;
   }
@@ -252,8 +279,9 @@ form {
 }
 
 input, textarea {
-  opacity: 0.7;
-  padding: 15px;
+  height: 45px;
+  opacity: 0.6;
+  padding: 25px;
   color: #fff;
 }
 input:focus {
@@ -261,21 +289,53 @@ input:focus {
   box-shadow: 0 0 0 0;
   border-style: none;
 }
+
 .form-control {
   color: #fff;
 }
 
   .btn-contato {
     width: 100%;
-    height: 40px;
+    height: 44px;
     border-radius: 8px;
     background-color: #fff;
     border: none;
+    font-weight: 800;
+  }
+
+  .btn-contato:hover {
+    /* estilos da sombra ao passar o mouse por cima */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+  .card-title {
+    font-weight: 800;
   }
 
 
-  
-  
+ 
+
+  .servicos, .links, .contatos {
+    display: flex;
+   flex-direction: column;
+  }
+
+  .servicos a, .links a, .contatos a {
+    text-decoration: none;
+    margin-top: 10px;
+    color: #35404e;
+  }
+
+  ul li {
+    list-style: none;
+  }
+
+  .menu-1 ul li a {
+    text-decoration: none;
+    color: #35404e;
+  }
+
+ 
 
 
 
