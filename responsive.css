@@ -1,104 +1,168 @@
-@media (max-width: 768px) {
-    .wpp, .menu-1 {
-        display: none;
-    }
+@media (max-width: 868px) {
+  .wpp,
+  .menu-1 {
+    display: none;
+  }
 
-    .img img {
-        margin-top: 40px;
-    }
-    .background-section4 {
-        height: 100%;
-        margin-top: 300px;
-    }
+  .img img {
+    margin-top: 40px;
+  }
+  .background-section4 {
+    height: 100%;
+    margin-top: 300px;
+  }
 
-    .section4 {
-        height: 900px;
-    }
-    form {
-        margin-top: 40px;
-    }
+  .section4 {
+    height: 900px;
+  }
+  form {
+    margin-top: 40px;
+  }
 
-    .section-footer {
-    
-        height: 700px;
-      }
+  .hamburger-menu {
+    display: block;
+    cursor: pointer;
+    color: #8a05be;
+  }
 
-      .section-direitos {
-        margin-top: 40px;
-      }
+  .menu-1 {
+    transition: 0.5s;
+    width: 100%;
+    position: absolute;
+    top: -120px;
+    right: 0;
+  }
+  .menu-1 ul {
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    background-color: #8a05be;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+  }
+  .menu-1 ul li a {
+    color: #fff;
+    font-size: 20px;
+  }
 
-      .text-direito {
-        font-size: 14px;
-      }
+  .menu-1 ul li {
+    margin-left: -19px;
+  }
 
-      .servicos, .links, .contatos {
-        margin-top: 30px;
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-        text-align: start;
-      }
+  .menu-1.active ul {
+    transition: 0.3s ease-in-out;
+  }
 
+  .menu-1.active {
+    display: block;
+    margin-top: 190px;
+    background-color: #8a05be;
+  }
 
+  /* .hamburger-menu::before {
+  transform: rotate(135deg);
+}
+.hamburger-menu::after {
+  transform: rotate(-135deg);
+} */
 
+  .menu-1.active .hamburger-menu {
+    width: 20px;
+    border-top: 2px solid;
+  }
+
+  .hamburger-menu::after,
+  .hamburger-menu::before {
+    content: "";
+    width: 20px;
+    background: currentColor;
+    display: block;
+    height: 2px;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+  }
+
+  .section-footer {
+    height: 700px;
+  }
+
+  .section-direitos {
+    margin-top: 40px;
+  }
+
+  .text-direito {
+    font-size: 14px;
+  }
+
+  .servicos,
+  .links,
+  .contatos {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+  }
 }
 
 @media (max-width: 1208px) {
-  
-    .servicos, .links, .contatos {
-        margin-top: 30px;
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-        text-align: start;
-      }
-   
+  .servicos,
+  .links,
+  .contatos {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+  }
 
-      .section-direitos {
-        margin-top: 220px;
-      }
+  .section-direitos {
+    margin-top: 220px;
+  }
 
-      .section2 {
-        height: 1000px;
-    }
-
+  .section2 {
+    height: 1000px;
+  }
 }
 
 @media (max-width: 868px) {
-    .background {
-        margin-top: 300px;
-        height: 100%;
-    }
+  .background {
+    margin-top: 300px;
+    height: 100%;
+  }
 
-    .section2 {
-        height: 1400px;
-    }
-    .row .row-services {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-    }
-    #card {
-        height: 300px;
-        border-radius: 20px;
-        padding: 20px;
-        width: 100%;
-        transition: background-color 0.5s ease;
-        background-color: #8A05BE;
-        color: #fff;
-      }
+  .section2 {
+    height: 1400px;
+  }
+  .row .row-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  #card {
+    height: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    transition: background-color 0.5s ease;
+    background-color: #8a05be;
+    color: #fff;
+  }
 }
 
 @media (max-width: 398px) {
-    .card-text {
-        font-size: 12px;
-    }
-    .section-direitos {
-        margin-top: 120px;
-      }
-    .card-title {
-        font-size: 17px;
-    }
+  .card-text {
+    font-size: 12px;
+  }
+  .section-direitos {
+    margin-top: 120px;
+  }
+  .card-title {
+    font-size: 17px;
+  }
 }
-
