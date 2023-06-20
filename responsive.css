@@ -70,24 +70,29 @@
 } */
 
   .menu-1.active .hamburger-menu {
+    margin-top: 20px;
     width: 20px;
-    border-top: 2px solid;
+  }
+
+  .hamburger-menu {
+    margin-top: -10px;
+    width: 20px;
   }
 
   .hamburger-menu::after,
   .hamburger-menu::before {
     content: "";
-    width: 20px;
+    width: 25px;
     background: currentColor;
     display: block;
-    height: 2px;
+    height: 5px;
     margin-top: 5px;
     transition: 0.3s;
     position: relative;
   }
 
   .section-footer {
-    height: 700px;
+    height: 500px;
   }
 
   .section-direitos {
@@ -153,6 +158,13 @@
     background-color: #8a05be;
     color: #fff;
   }
+  #card img {
+    margin-top: 20px;
+  }
+
+  .img-quemsomos {
+    display: none;
+  }
 }
 
 @media (max-width: 398px) {
@@ -164,5 +176,9 @@
   }
   .card-title {
     font-size: 17px;
+  }
+
+  #card img {
+    margin-top: 20px;
   }
 }

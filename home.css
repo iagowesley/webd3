@@ -58,7 +58,11 @@ span {
 }
 
 .whatsapp-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transition: 0.3s;
+  gap: 5px;
   text-decoration: none;
   background-color: #25d366;
   color: #fff;
@@ -69,10 +73,26 @@ span {
   border-radius: 4px;
   cursor: pointer;
 }
-.whatsapp-btn:hover {
-  color: #ffffff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+.whatsapp-btn img {
+  width: 18px;
 }
+
+.whatsapp-btn a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.whatsapp-btn a:hover {
+  color: #ffffff;
+}
+
+.whatsapp-btn:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+
+
+
 
 .img img {
   width: 100%;
@@ -98,6 +118,10 @@ span {
   font-size: 17px;
 }
 
+.consultoria {
+  text-decoration: underline;
+}
+
 .contato-btn {
   background-color: #8a05be;
   color: #fff;
@@ -119,6 +143,7 @@ span {
 }
 
 .section2 {
+  padding-top: 30px;
   max-width: 80%;
   margin: 0 auto;
   width: 100%;
@@ -126,18 +151,20 @@ span {
 }
 
 .section3 {
+  padding-top: 70px;
+
   max-width: 80%;
   margin: 0 auto;
   width: 100%;
-  height: 450px;
+  height: 600px;
 }
 
 .section4 {
   max-width: 80%;
-
+  padding-top: 40px;
   margin: 0 auto;
   width: 100%;
-  height: 600px;
+  height: 650px;
 }
 
 .section-footer {
@@ -183,9 +210,7 @@ span {
 }
 
 #card img {
-  width: 100%;
-  height: auto;
-  border-radius: 4px;
+  width: 12%;
 }
 
 #card:hover {
@@ -206,7 +231,7 @@ span {
 }
 
 .services h3 {
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 .services h2 {
@@ -345,6 +370,12 @@ input:focus {
   text-decoration: none;
   margin-top: 10px;
   color: #35404e;
+}
+
+.servicos a:hover,
+.links a:hover {
+
+  color: #8a05be;
 }
 
 ul li {

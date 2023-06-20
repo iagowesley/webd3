@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="responsive.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <title>WebD3</title>
 </head>
@@ -22,15 +23,16 @@
             </div>
             <div class="menu-1">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Serviços</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a class="scroll-link" href=".section2">Serviços</a></li>
+                    <li><a class="scroll-link" href=".section3">Sobre</a></li>
+                    <li><a class="scroll-link" href=".section4">Contato</a></li>
                 </ul>
             </div>
-            <div class="wpp">
-                <a href="" target="_blank" class="whatsapp-btn">
-                    WhatsApp
+            <div class="wpp whatsapp-btn">
+                <img src="icons/icons8-whatsapp.svg" alt="">
+                <a href="" target="_blank" class="">
+                     WhatsApp
                 </a>
             </div>
             <div class="hamburger-menu">
@@ -52,8 +54,8 @@
                 <div class="col-12 col-md-6 col-xl-6 mt-5">
                     <div class="intro">
                         <p class="p1">Impulsionamos o seu negócio</p>
-                        <h1>Consultoria e Desenvolvimento web</h1>
-                        <p class="p2 mb-4">Desenvolvemos a melhor solução <br> para sua empresa.</p>
+                        <h1>Consultoria e <span  class="consultoria">desenvolvimento web</span> </h1>
+                        <p class="p2 mb-4">Transformando ideias em presença online!</p>
                         <a href="" class="contato-btn">ENTRAR EM CONTATO</a>
                     </div>
                 </div>
@@ -78,31 +80,27 @@
                 <div class="row row-services">
                     <div class="col-12 col-md-6 col-xl-4 mt-5 card1">
                         <div id="card">
-                            <!-- <img src="caminho_para_a_imagem" alt="Imagem do card"> -->
-                            <h3>Sites institucionais</h3>
-                            <p>Aplicativos IOS/Android</p>
-                            <p>Backend e frontend</p>
+                          <img src="icons/icons8-pc-24.png" alt="">
+                            <h3>Desenvolvimento de Sites Institucionais</h3>
+                            <p>Sites profissionais e impactantes para sua empresa.</p>
+                          
                         </div>
 
                     </div>
 
                     <div class="col-12 col-md-6 col-xl-4 mt-5 card2">
                         <div id="card">
-                            <!-- <img src="caminho_para_a_imagem" alt="Imagem do card"> -->
-                            <h3>Landing pages</h3>
-                            <p>Aplicativos IOS/Android</p>
-                            <p>Backend e frontend</p>
+                            <img src="icons/icons8-formato-50.png" alt="">
+                            <h3>Criação de Landing Pages Persuasivas</h3>
+                            <p>Converta visitantes em clientes com páginas otimizadas.</p>
 
                         </div>
                     </div>
 
                     <div class="col-12 col-md-6 col-xl-4 mt-5 card3">
                         <div id="card">
-                            <!-- <img src="caminho_para_a_imagem" alt="Imagem do card"> -->
-                            <h3>Manutenção</h3>
-                            <p>Aplicativos IOS/Android</p>
-                            <p>Backend e frontend</p>
-
+<img src="icons/icons8-portal-de-manutenção-online-50.png" alt="">                            <h3>Manutenção Web Ágil e Confiável</h3>
+                            <p>Garantia de funcionamento e atualização constante.</p>
                         </div>
                     </div>
 
@@ -120,17 +118,16 @@
 
             <div class="col-12 col-md-6 col-xl-7 mt-5">
                 <div class="img-quemsomos">
-                    <img src="icons/quemsomos.svg" alt="" width="90%">
+                    <img src="icons/quemsomos.svg" alt="" width="80%">
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 col-xl-5 mt-5">
+            <div class="col-12 col-md-6 col-xl-5 mt-2">
                 <div class="intro">
                     <h1>Quem somos?</h1>
-                    <p class="p2 mb-5">Somos uma empresa de consultoria de T.I. com mais de 10 anos de mercado, nosso
-                        foco é ajudar empresas de T.I. a reduzir seus custos, ter segurança e maior escalabilidade.
-                        Ajudamos as empresas a fazerem a transformação digital, auxiliando na implementação correta do
-                        Scrum, além da criação de um ambiente novo e ágil.</p>
+                    <p class="p2 mb-5">Na WebD3, somos apaixonados por criar presença online significativa e envolvente para empresas. Somos especializados no desenvolvimento de sites institucionais e landing pages, oferecendo soluções digitais personalizadas que impulsionam a sua marca.
+
+                        Nossa equipe experiente combina criatividade e conhecimento técnico para criar sites profissionais e impactantes que cativam o seu público-alvo. Utilizamos as mais recentes tecnologias e melhores práticas de design para garantir que seu site tenha uma aparência moderna e seja intuitivo de navegar.</p>
                     <a href="" class="contato-btn">ENTRAR EM CONTATO</a>
                 </div>
             </div>
@@ -211,10 +208,10 @@
     <div class="section-direitos mb-3">
         <div class="row">
             <div class="col-10 col-md-6 col-xl-6">
-                <p class="text-direito">© Copyright © 2022. Todos direitos reservados. </p>
+                <p class="text-direito">© Copyright © 2023. Todos direitos reservados. </p>
             </div>
             <div class="col-2 col-md-6 col-xl-6 text-end">
-                <img src="icons/linkedin.svg" alt="">
+               <a href=""><img src="icons/linkedin.svg" alt=""></a> 
             </div>
         </div>
     </div>

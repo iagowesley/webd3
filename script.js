@@ -10,3 +10,13 @@ const hamburgerIcon = document.querySelector(".hamburger-menu img");
 hamburgerMenu.addEventListener("click", function () {
   hamburgerIcon.classList.toggle("active");
 });
+
+$(document).ready(function() {
+  $('a.scroll-link').on('click', function(e) {
+    e.preventDefault();
+    var targetClass = $(this).attr('href');
+    $('html, body').animate({
+      scrollTop: $(targetClass).offset().top
+    }, 600);
+  });
+});
